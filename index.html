@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inquisitive Interests Survey</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1 class="title">Inquisitive Survey Form</h1></header>
+    
+    <form action="https://www.radicalx.co/">
+    <div>
+    <label for="name">Enter your name: </label>
+    <input type="text" name="name" id="name" required>
+</div>
+<br>
+<div>
+    <label for="profession">Enter your profession: </label>
+    <input type="text" name="profession" id="profession" maxlength="20" required>
+</div>
+<br>
+<div>
+    <label for="yourself">Tell us a bit about yourself: </label>
+    <textarea name="yourself id="yourself cols="30" rows="10" placeholder="What do you like?, Where do you study?, etc."></textarea>
+</div>
+<br>
+<div>
+    <label for="exercise">Do you exercise at home? </label>
+
+    <label for="choice">Yes</label>
+    <input type="radio" name="choice" id="choice">
+
+    <label for="choice">No</label>
+    <input type="radio" name="choice" id="choice">
+</div>
+<br>
+<div>
+    <label for="topics">How do you like to read your favorite topics?</label>
+    <br>
+    <label for="TV">Television</label>
+    <input type="checkbox" name="TV" id="TV">
+
+    <label for="Mag">Magazines</label>
+    <input type="checkbox" name="Mag" id="Mag">
+
+    <label for="books">Books</label>
+    <input type="checkbox" name="books" id="books">
+
+    <label for="OR">Online Resources</label>
+    <input type="checkbox" name="OR" id="OR">
+
+    <label for="Phone_apps">Phone Apps</label>
+    <input type="checkbox" name="Phone_apps" id="Phone_apps">
+</div>
+<br>
+<div>
+<label for="genre">What genre of movies do you like? </label>
+<select title="genre" value="Sc-fi">
+    <option>Sc-fi</option>
+    <option>Romance</option>
+    <option>Thriller</option>
+    <option>Horror</option>
+    <option>Comedy</option>
+    <option>Action</option>
+</select>
+</div>
+<br>
+<div>
+    <input type="submit" value="submit">
+</div>
+</form>
+
+</body>
+</html>
